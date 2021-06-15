@@ -88,7 +88,7 @@ function parseText(text: string, rules: IRule[]): string {
    text,
   );
 
-  return final.replace(/\n/gi, "<br>");
+  return final; //.replace(/\n/gi, "<br>");
 }
 
 export const whatsappRules: IRule[] = [

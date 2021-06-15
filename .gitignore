@@ -59,3 +59,7 @@ typings/
 
 # Build files deployed to NPM
 dist/
+
+
+# Take out Travis for now!
+.travis.yml
